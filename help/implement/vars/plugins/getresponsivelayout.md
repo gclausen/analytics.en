@@ -53,7 +53,7 @@ The `getResponsiveLayout` method uses the following arguments:
 
 * **`ppw`** (required, integer): The maximum width of pixels a browser window can have before the page switches from a phone portrait layout to a phone landscape-based layout
 * **`plw`** (required, integer): The maximum width of pixels a browser window can have before the page switches from a phone landscape layout to a tablet-based layout
-* **`tw`** (required, boolean): The maximum width of pixels a browser window can have before the page switches from a tablet layout to a desktop-based layout
+* **`tw`** (required, integer): The maximum width of pixels a browser window can have before the page switches from a tablet layout to a desktop-based layout
 
 Calling this method returns a string containing two parts. The first part uses of of the following values, depending on the browser's width and the above arguments:
 
